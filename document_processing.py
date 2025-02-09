@@ -5,7 +5,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 import re
 import os
 
-PARSED_MD_PATH = "./data_md/parsed_document.md"
+PARSED_MD_PATH = "./parsed_document.md"
 
 def load_and_parse_pdf(file_path):
     if PARSED_MD_PATH and os.path.exists(PARSED_MD_PATH) and os.path.getsize(PARSED_MD_PATH) > 0:
