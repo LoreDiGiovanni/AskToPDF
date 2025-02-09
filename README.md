@@ -28,7 +28,7 @@ This project leverages various state-of-the-art technologies to ensure efficient
 - API keys for OpenAI and/or DeepSeek  
 - API keys for llamaCloude, [llamaa Parse](https://docs.cloud.llamaindex.ai/llamaparse/getting_started)
  
-## Run optsion
+## Run options
 ```bash
 python main.py -f path/to/document.pdf -q "Your question here"
 ```
