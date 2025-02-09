@@ -30,7 +30,7 @@ if __name__ == "__main__":
             vector_store = load_vector_store(embeddings, args.persist_dir)
     else:
         print("Nessun database trovato, creazione nuovo database...")
-        if os.path.exists(args.persist_dir)
+        if os.path.exists(args.persist_dir):
             os.mkdir(args.persist_dir)
         documents = load_and_parse_pdf(args.file)
         langchain_documents = documents_to_chunks(documents)
